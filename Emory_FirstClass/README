@@ -1,0 +1,7 @@
+FirstClass folder contains connection files for connecting to Emory's firstclass server.
+This folder can reside in ~/Library/ or /Library. We choose /Library. 
+
+To create this pkg with the Luggage (https://github.com/unixorn/luggage/wiki/),
+Place FirstClass.app in same directory as Makefile. 
+Compress with: tar cvjf FirstClass.app.tar.bz2 FirstClass.app
+Create pkg with: make pkg (or "make dmg")

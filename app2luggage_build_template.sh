@@ -9,16 +9,16 @@
 
 
 # Enter app name with no spaces
-appname=VLC
+appname=Skype
 
 # Application name as it appears in your /Applications folder. Include .app.
-app=VLC.app
+app=Skype.app
 
 # Change to your reverse domain, ie. com.companyname
 reverse_domain=edu.emory
 
 # Location where you want to store your pkg and makefile
-dirname=~/src/luggagepkgs/VLC
+dirname=~/src/luggagepkgs/Skype
 
 # script action. Shouldn't need to edit this
 sudo app2luggage.rb --application /Applications/${app} --directory-name ${dirname} --package-id ${appname} --reverse-domain ${reverse_domain} --make-pkg --make-dmg

@@ -4,7 +4,7 @@
 # Bash script to create a Luggage pkg and makefile with app2luggage
 # I felt this was easier than looking up the app2luggage command everytime I needed it.
 
-# Enter app name with no spaces
+# Enter app name
 appname="Firefox"
 
 # Application name as it appears in your /Applications folder. Include .app.

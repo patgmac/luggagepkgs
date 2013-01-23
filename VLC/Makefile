@@ -13,7 +13,7 @@ PAYLOAD=\
 	install-app2luggage-VLC.app
 
 
-install-app2luggage-VLC.app: l_Applications VLC.app.2012-04-09.tar.bz2
-	@sudo ${TAR} xjf VLC.app.2012-04-09.tar.bz2 -C ${WORK_D}/Applications
+install-app2luggage-VLC.app: l_Applications VLC.app.2013-01-07.tar.bz2
+	@sudo ${TAR} xjf VLC.app.2013-01-07.tar.bz2 -C ${WORK_D}/Applications
 	@sudo chown -R root:admin "${WORK_D}/Applications/VLC.app"
 

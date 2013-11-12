@@ -13,7 +13,7 @@ PAYLOAD=\
 	install-app2luggage-Flip_Player.app
 
 
-install-app2luggage-Flip_Player.app: l_Applications Flip_Player.app.2013-01-07.tar.bz2
-	@sudo ${TAR} xjf Flip_Player.app.2013-01-07.tar.bz2 -C ${WORK_D}/Applications
+install-app2luggage-Flip_Player.app: l_Applications Flip_Player.app.2013-06-14.tar.bz2
+	@sudo ${TAR} xjf Flip_Player.app.2013-06-14.tar.bz2 -C ${WORK_D}/Applications
 	@sudo chown -R root:admin "${WORK_D}/Applications/Flip Player.app"
 

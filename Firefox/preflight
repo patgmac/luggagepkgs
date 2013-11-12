@@ -1,5 +1,10 @@
-#!/bin/bash
-# Automatically generated preflight script which
-# will not do anything but return success.
+#!/usr/bin/env bash
+# Automatically generated preflight script to remove 
+# the application prior to installation of with this
+# package.
+if [ -e "$3/Applications/Firefox.app" ] ; then
+    rm -Rf "$3/Applications/Firefox.app"
+    exit ${?}
+fi
 exit 0
 

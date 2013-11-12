@@ -13,7 +13,7 @@ PAYLOAD=\
 	install-app2luggage-Skype.app
 
 
-install-app2luggage-Skype.app: l_Applications Skype.app.2012-12-26.tar.bz2
-	@sudo ${TAR} xjf Skype.app.2012-12-26.tar.bz2 -C ${WORK_D}/Applications
+install-app2luggage-Skype.app: l_Applications Skype.app.2013-07-10.tar.bz2
+	@sudo ${TAR} xjf Skype.app.2013-07-10.tar.bz2 -C ${WORK_D}/Applications
 	@sudo chown -R root:admin "${WORK_D}/Applications/Skype.app"
 

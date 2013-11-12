@@ -13,7 +13,7 @@ PAYLOAD=\
 	install-app2luggage-Firefox.app
 
 
-install-app2luggage-Firefox.app: l_Applications Firefox.app.2013-01-09.tar.bz2
-	@sudo ${TAR} xjf Firefox.app.2013-01-09.tar.bz2 -C ${WORK_D}/Applications
+install-app2luggage-Firefox.app: l_Applications Firefox.app.2013-09-12.tar.bz2
+	@sudo ${TAR} xjf Firefox.app.2013-09-12.tar.bz2 -C ${WORK_D}/Applications
 	@sudo chown -R root:admin "${WORK_D}/Applications/Firefox.app"
 

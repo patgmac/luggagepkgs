@@ -5,7 +5,7 @@
 # I felt this was easier than looking up the app2luggage command everytime I needed it.
 
 # Enter app name
-appname="Firefox"
+appname="$1"
 
 # Application name as it appears in your /Applications folder. Include .app.
 app="${appname}.app"
@@ -21,6 +21,6 @@ chown -R root:admin "/Applications/${app}"
 chmod -R 775 "/Applications/${app}"
 
 # script action. Shouldn't need to edit this
-sudo app2luggage.rb --application "/Applications/${app}" --directory-name "${dirname}" --package-id "${appname}" --reverse-domain ${reverse_domain} --make-pkg --make-dmg
+sudo app2luggage.rb --application "/Applications/${app}" --directory-name "${dirname}" --package-id "${appname}" --reverse-domain ${reverse_domain} --remove-exisiting-version --make-pkg --make-dmg
 
 exit 0
